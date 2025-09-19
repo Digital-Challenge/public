@@ -27,7 +27,7 @@ chmod 644 "./${PHP_SCRIPT}"
 
 # — 2) Execute PHP script —
 echo "Running ${PHP_SCRIPT}..."
-#php "./${PHP_SCRIPT}" --env=staging
+php "./${PHP_SCRIPT}" --env=staging
 
 # — 3) Exit (trap will clean up) —
 echo "Staging initialization complete."
