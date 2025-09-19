@@ -7,7 +7,7 @@
 set -euo pipefail
 
 # — Configuration —
-REPO_URL="https://raw.githubusercontent.com/yourusername/yourrepo/master"
+REPO_URL="https://raw.githubusercontent.com/Digital-Challenge/public/master"
 PHP_SCRIPT="staging_init.php"
 SH_SCRIPT="$(basename "$0")"
 TMP_PATH="$(mktemp /tmp/${PHP_SCRIPT}.XXXXXX)"
