@@ -14,6 +14,6 @@ require_once __DIR__ . '/wp-load.php';
 
 // Your logic
 add_option('pextest1', 'ok');
-echo 'WP: Option added';
+echo '-> WP: Option added';
 echo "\n";
 
