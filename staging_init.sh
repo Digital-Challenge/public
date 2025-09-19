@@ -14,7 +14,7 @@ SH_SCRIPT="$(basename "$0")"
 # — Cleanup function —
 cleanup() {
   echo "Cleaning up..."
-  #rm -f "${PHP_SCRIPT}" "${SH_SCRIPT}"
+  rm -f "${PHP_SCRIPT}" "${SH_SCRIPT}"
 }
 trap cleanup EXIT
 
