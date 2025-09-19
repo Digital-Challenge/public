@@ -8,3 +8,4 @@ define('WP_DEBUG_LOG', true);
 require_once __DIR__ . '/wp-load.php';
 
 add_option('pextest1', 'ok');
+echo 'WP: Option added';
